@@ -3,6 +3,9 @@
     "name": "tarefas",
     "slug": "tarefas",
     "version": "1.0.0",
+    "platforms":[
+      "android"
+    ],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -16,11 +19,8 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "android":{
+      "package": "com.teste.tarefas"
+    }    
   }
 }
